@@ -20,7 +20,7 @@ public class LoginPage {
 	private By emailId = By.id("input-email");
 	private By password = By.id("input-password");
 	private By loginButton = By.xpath("//button[@type='submit' and text()='Login']");
-	private By forgotPassword = By.xpath("//div[@class='form-group']//a[text()='Forgotten Password']");
+	private By forgotPassword = By.xpath("//div[@class='list-group mb-3']//a[text()='Forgotten Password']");
 	private By registerLink= By.linkText("Register");
 	// 2. Page Constructor
 	public LoginPage(WebDriver driver) {
